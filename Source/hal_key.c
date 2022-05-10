@@ -220,7 +220,7 @@ uint8 HalKeyRead(void) {
         else if(col & 0x10)
           col2 = 2;
         else if(col & 0x08)
-		  col2 = 1
+		  col2 = 1;
         else
           col2 = 0;
 
