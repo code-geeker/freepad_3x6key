@@ -272,6 +272,7 @@ byte zclFreePadApp_KeyCodeToButton(byte key) {
         return HAL_UNKNOWN_BUTTON;
         break;
     }
+#endif
 }
 
 void zclFreePadApp_ResetAttributesToDefaultValues(void) {
