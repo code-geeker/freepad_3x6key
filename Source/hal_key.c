@@ -281,7 +281,7 @@ void HalKeyPoll(void) {
     }
 
     if (keys != HAL_KEY_CODE_NOKEY) {
-        osal_start_timerEx(Hal_TaskID, HAL_KEY_EVENT, 50);
+        osal_start_timerEx(Hal_TaskID, HAL_KEY_EVENT, 40);
     } else {
         halKeyTimerRunning = FALSE;
     }

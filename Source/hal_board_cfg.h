@@ -27,7 +27,7 @@
 #define OSC_32KHZ  0x80 /* internal 32 KHz rcosc */
 #endif
 
-#define HAL_CLOCK_STABLE() 
+#define HAL_CLOCK_STABLE()
 
 /* ------------------------------------------------------------------------------------------------
  *                                         Key Release detect support
